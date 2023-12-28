@@ -1,0 +1,23 @@
+baseURL: 'https://anirudhsudhir.github.io/'
+languageCode: en-in
+title: Anirudh Sudhir
+theme: papermod
+
+params:
+  defaultTheme: auto
+  env: production
+
+params:
+    homeInfoParams:
+        Title: Hello!
+        Content: I'm Anirudh, a computer science enthusiast.
+
+    socialIcons:
+        - name: "Github"
+          url: "https://github.com/anirudhsudhir/"
+menu:
+    main:
+        - identifier: posts 
+          name: posts 
+          url: /posts/
+          weight: 10
