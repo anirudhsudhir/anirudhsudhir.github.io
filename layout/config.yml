@@ -1,0 +1,5 @@
+navbar:
+    - index
+    - about
+    - posts
+baseURL: https://anirudhsudhir.github.io/

@@ -10,5 +10,5 @@ I love exploring and building projects. Take a look at what I've [built](/pages/
 
 ## What I'm working on right now
 
-- Building [Bingo](https://github.com/anirudhsudhir/Bingo), a pastebin written in Go with templating and persistence.
+- Building a [static site generator](https://github.com/acmpesuecc/ssg) written in Go.
 - Learning the Rust programming language.
