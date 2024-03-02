@@ -5,7 +5,7 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: [main]
-# Listen to changes in the appliation repo
+# Listen to changes in the ssg application repo
   repository_dispatch:
 
   # Allows you to run this workflow manually from the Actions tab
@@ -35,7 +35,7 @@ jobs:
    
     - name: Clone the ssg application repo and copy content to be rendered
       run: |
-        git clone https://github.com/anirudhsudhir/ssg.git
+        git clone https://github.com/acmpesuecc/ssg.git
         cd ssg/
         rm -rf content static layout/config.yml
         cp -r ../content ./
