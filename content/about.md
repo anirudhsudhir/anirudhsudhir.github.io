@@ -6,7 +6,7 @@ title: About
 ## About Me
 
 I'm a computer science freshman at PES University, Bangalore.
-I love exploring and building projects. Take a look at what I've [built](/pages/projects/) (or my [Github](https://github.com/anirudhsudhir)).
+I love exploring and building projects. Take a look at what I've [built](projects.html) (or my [Github](https://github.com/anirudhsudhir)).
 
 ## What I'm working on right now
 

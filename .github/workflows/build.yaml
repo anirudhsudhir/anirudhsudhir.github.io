@@ -37,10 +37,8 @@ jobs:
       run: |
         git clone https://github.com/acmpesuecc/ssg.git
         cd ssg/
-        rm -rf content static layout/config.yml
-        cp -r ../content ./
-        cp -r ../static ./
-        cp -r ../layout/config.yml ./layout/
+        rm -rf content/ static/ layout/{config.yml,partials/footer.html}
+        cp -r ../{content,static,layout} ./
 
     - name: Set up Go
       uses: actions/setup-go@v4
