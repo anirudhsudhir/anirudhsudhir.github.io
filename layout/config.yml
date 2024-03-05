@@ -2,4 +2,8 @@ navbar:
     - index
     - about
     - posts
+
 baseURL: https://anirudhsudhir.github.io/
+
+plugins:
+    - prism.js

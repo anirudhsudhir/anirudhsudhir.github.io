@@ -1,6 +1,6 @@
 ---
-date: 24-02-2024
 title: About
+date: 2024-02-24
 ---
 
 ## About Me
