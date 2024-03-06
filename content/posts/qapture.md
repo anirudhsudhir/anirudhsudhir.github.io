@@ -2,7 +2,7 @@
 title: Qapture
 date: 2023-11-23
 type: post
-description: A talk I gave at the Mentor Expo conducted by HSP
+description: A talk I gave at my university
 ---
 
 This post is part of a talk I gave at the Mentor Expo conducted by [HSP](https://homebrew.hsp-ec.xyz), the developer community at my college.

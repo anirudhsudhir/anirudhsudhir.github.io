@@ -4,23 +4,22 @@
 <body>
   {{template "header" .}}
 
-  {{$baseURL := .Layout.BaseURL}}
+  <div class="body">
 
-  <div class="posts">
-    {{range .Generator.MdPosts}}
-    <a class="post-card" href="posts/{{.Filename}}.html">
-      <div class="post-card-div">
-        <div class="post-card description">
-          <h3>{{.Frontmatter.Title}}</h3>
-          <p>{{.Frontmatter.Description}}</p>
+    <div class="posts">
+      {{range $PostDate, $Post := .Posts}}
+      <div class="post-card">
+        <a id="post-link" href="posts/{{$Post.Filename}}.html">
+          {{$Post.Frontmatter.Title}}: {{$Post.Frontmatter.Description}}
+        </a>
+        <div class="post-metadata">
+          <p>{{$Post.Frontmatter.Date}}</p>
         </div>
-        <p>{{.Frontmatter.Date}}</p>
       </div>
-    </a>
-    {{end}}
+      {{end}}
+    </div>
 
   </div>
-
   {{template "footer" .}}
 </body>
 

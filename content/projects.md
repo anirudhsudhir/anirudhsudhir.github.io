@@ -3,6 +3,10 @@ title : "Projects"
 date: 2024-02-24
 ---
 
+[SSG](https://github.com/acmpesuecc/ssg) (In Progress)
+
+A static site generator written in Go. This is a team project.
+
 [Bingo](https://github.com/anirudhsudhir/Bingo)
 
 A server-side rendered pastebin written in Go with data persistence, middleware and sessions.

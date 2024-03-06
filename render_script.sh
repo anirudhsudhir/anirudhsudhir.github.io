@@ -1,3 +1,4 @@
+cp ./rendered/static/style.css ../ssg/static/
 cd ../ssg/
 cp static/prism.css ../anirudhsudhir.github.io/static
 rm -rf content/ static layout/{config.yml,partials/footer.html,posts.html}

@@ -9,8 +9,11 @@
   --gray: #6b6b6b;
   --content_font_size: 1.15rem;
   --mobile_content_font_size: 1rem;
-  --postlink_font_size: 2rem;
+  --postlink_font_size: 1.5rem;
   --mobile_postlink_font_size: 2rem;
+
+  --page-padding: 15rem;
+  --mobile-page-padding: 15rem;
 }
 
 * {
@@ -38,8 +41,9 @@ body {
 
 header,
 footer {
-  width: 100%;
   flex: 0;
+  width: 100%;
+  padding: 0 var(--page-padding);
 }
 
 footer {
@@ -78,7 +82,7 @@ a:hover {
 
 .body {
   flex: 1 0 auto;
-  padding: 0 15rem;
+  padding: 0 var(--page-padding);
 
   display: flex;
   flex-direction: column;
@@ -98,9 +102,13 @@ a:hover {
   height: 100%;
 }
 
-.posts>a {
-  text-align: center;
-  color: var(--primary_colour);
+.post-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#post-link {
   font-size: var(--postlink_font_size);
 }
 
