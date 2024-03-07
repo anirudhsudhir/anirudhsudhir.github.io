@@ -1,0 +1,66 @@
+/* 
+--background-alt
+--selection
+--text-main
+--text-bright
+--text-muted
+--links
+--focus
+--border
+--code
+--animation-duration
+--button-hover
+--scrollbar-thumb
+--scrollbar-thumb-hover
+--form-placeholder
+--form-text
+--variable
+--highlight
+--select-arrow */
+
+/* Always applied */
+:root {
+  --primary_colour: #BB86FC;
+  --gray: #6b6b6b;
+  --tag-background: #310569;
+
+  --background-body: white;
+  --links: var(--primary_colour);
+}
+
+/* Only applied in dark mode (overrides blue) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-body: #000000;
+    --links: var(--primary_colour);
+  }
+
+  body {
+    /* background-image: ; */
+  }
+}
+
+a {
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.tags-placeholder {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tags-placeholder a {
+  background-color: var(--tag-background);
+  color: white;
+  border: 0.1rem solid var(--tag-background);
+  border-radius: 8px;
+
+  padding: 0.15rem;
+}

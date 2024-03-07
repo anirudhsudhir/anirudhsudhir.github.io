@@ -1,9 +1,13 @@
 navbar:
     - index
     - about
+    - tags
     - posts
 
 baseURL: https://anirudhsudhir.github.io/
 
-plugins:
-    - prism.js
+siteTitle: Anirudh Sudhir
+
+siteScripts:
+
+author: Anirudh Sudhir

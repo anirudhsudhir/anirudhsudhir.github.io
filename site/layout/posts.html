@@ -2,12 +2,17 @@
 {{ template "head" .}}
 
 <body>
+
   {{template "header" .}}
 
   <div class="body">
 
     <div class="posts">
+
+      <h2>Posts</h2>
+
       {{range $PostDate, $Post := .Posts}}
+
       <div class="post-card">
         <a id="post-link" href="posts/{{$Post.Filename}}.html">
           {{$Post.Frontmatter.Title}}: {{$Post.Frontmatter.Description}}
@@ -16,11 +21,15 @@
           <p>{{$Post.Frontmatter.Date}}</p>
         </div>
       </div>
+
       {{end}}
+
     </div>
 
   </div>
+
   {{template "footer" .}}
+
 </body>
 
 </html>
