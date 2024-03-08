@@ -1,15 +1,16 @@
 ---
 title: Qapture
-date: 2023-11-23
+date: 2024-03-09
 type: post
 description: A talk I gave at my university
 tags:
     - c
     - hsp
     - talks
+    - tech
 ---
 
-This post is part of a talk I gave at the Mentor Expo conducted by [HSP](https://homebrew.hsp-ec.xyz), the developer community at my college.
+This post is part of a talk I gave at the Mentor Expo conducted by [HSP](https://homebrew.hsp-ec.xyz), the developer community at my college. I delivered the talk on 23rd November, 2023.
 
 ### About
 
