@@ -17,7 +17,7 @@ While I began writing this post today, the site in itself has been a long time c
 ### Background
 
 I already had a website running before, written in markdown and rendered using [Hugo](https://gohugo.io). While this was convenient and worked well, it wasn't really satisfying. I wanted to build a custom static site generator to render my site.
-As part of [AIEP](https://acmpesuecc.github.io/aiep), our team, consisting of Adhesh, Aditya, Nathan and me, began building [one](/posts/building-ssg.html) in Go. I also managed to snag a lovely domain.
+As part of [AIEP](https://acmpesuecc.github.io/aiep), our team, consisting of Adhesh, Aditya, Nathan and me, began building [one](https://github.com/acmpesuecc/anna) in Go. I also managed to snag a lovely domain.
 
 Fast forward a few weeks and I've got the site up and running. Staying up late has been worth it.
 

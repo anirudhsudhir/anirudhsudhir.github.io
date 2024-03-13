@@ -3,33 +3,33 @@
 
 <body>
 
-  {{template "header" .}}
+  <div class="body-container">
+    {{template "header" .}}
 
-  <div class="body">
+    <div class="body">
 
-    <div class="posts">
+      <div class="posts">
 
-      <h2>Posts</h2>
+        <h2>Posts</h2>
 
-      {{range $PostDate, $Post := .Posts}}
+        {{range $PostDate, $Post := .Posts}}
 
-      <div class="post-card">
-        <a id="post-link" href="posts/{{$Post.Filename}}.html">
-          {{$Post.Frontmatter.Title}}: {{$Post.Frontmatter.Description}}
-        </a>
-        <div class="post-metadata">
-          <p>{{$Post.Frontmatter.Date}}</p>
+        <div class="post-card">
+          <a id="post-link" href="posts/{{$Post.Filename}}.html">
+            {{$Post.Frontmatter.Title}}: {{$Post.Frontmatter.Description}}
+          </a>
+          <div class="post-metadata">
+          </div>
         </div>
-      </div>
 
-      {{end}}
+        {{end}}
+
+      </div>
 
     </div>
 
+    {{template "footer" .}}
   </div>
-
-  {{template "footer" .}}
-
 </body>
 
 </html>

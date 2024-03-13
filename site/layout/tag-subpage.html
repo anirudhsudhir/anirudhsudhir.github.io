@@ -3,22 +3,26 @@
 
 <body>
 
-  {{template "header" .}}
+  <div class="body-container">
+    {{template "header" .}}
 
-  <div class="body">
+    <div class="body">
 
-    <div class="tagged-posts">
-      <h2>Posts tagged "{{.Frontmatter.Title}}"</h2>
-      {{range .MergedTags}}
-      <a href="/{{.URL}}">{{.Frontmatter.Title}}</a>
-      {{end}}
+      <div class="tagged-posts">
+        <h2>Posts tagged "{{.Frontmatter.Title}}"</h2>
+        <div class="tags-placeholder">
+          {{range .MergedTags}}
+          <a href="/{{.URL}}">{{.Frontmatter.Title}}</a>
+          {{end}}
+        </div>
+      </div>
+
     </div>
 
+    {{template "footer" .}}
+
+    <script>hljs.highlightAll();</script>
   </div>
-
-  {{template "footer" .}}
-
-  <script>hljs.highlightAll();</script>
 </body>
 
 </html>

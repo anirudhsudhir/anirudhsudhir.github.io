@@ -1,8 +1,9 @@
 ---
 title: Anna
-date: 2024-03-09
+date: 2024-03-11
 type: post
 description: Building a static site generator in Go 
+draft: true
 tags:
     - acm
     - go
