@@ -3,7 +3,7 @@
   <nav>
     {{range .Layout.Navbar}}
     {{ if eq . "index" }}
-    <a href="/">{{ $.Layout.Author }}</a>
+    <a href="/">home</a>
     {{else}}
     <a href="/{{.}}.html">{{.}}</a>
     {{end}}

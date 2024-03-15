@@ -59,7 +59,7 @@ Blocks are highly important as they drastically increase the speed of any file I
 qapture is a CLI tool.
 The user runs it by passing the path to the RAW image as an argument.
 
-```bash
+```sh
 ./qapture PATH_TO_IMAGE.raw
 ```
 

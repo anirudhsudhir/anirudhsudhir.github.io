@@ -20,6 +20,7 @@
   --links: var(--primary-colour-light);
   --selection: var(--primary-colour-light);
   --highlight: var(--primary-colour-light);
+  --focus: var(--primary-colour-light);
 
   /* Background SVG */
   background-color: #f6f6f6;
@@ -58,6 +59,7 @@ h6 {
     --links: var(--primary-colour-dark);
     --selection: var(--primary-colour-dark);
     --highlight: var(--primary-colour-dark);
+    --focus: var(--primary-colour-dark);
 
     /* Background SVG */
     background-color: var(--background-dark);

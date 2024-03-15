@@ -5,7 +5,7 @@ date: 2024-02-24
 
 ## My Projects
 
-[SSG](https://github.com/acmpesuecc/ssg) (In Progress)
+[Anna](https://github.com/acmpesuecc/Anna) (In Progress)
 
 A static site generator written in Go. This is a team project.
 
