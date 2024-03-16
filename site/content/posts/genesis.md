@@ -2,31 +2,31 @@
 title: Genesis
 date: 2024-03-08
 type: post
-description: My very first post
+description: My first post
 tags:
     - thoughts
 ---
 
 Hello!
 
-This is the first post that I'm writing for my personal site.
-It's a proud moment to see my very own home on the internet, powered by a handcrafted static site generator.
+This is the first post that I'm writing for this site. Indeed, it's a proud moment to see my very own home on the internet.
 
 While I began writing this post today, the site in itself has been a long time coming.
 
 ### Background
 
-I already had a website running before, written in markdown and rendered using [Hugo](https://gohugo.io). While this was convenient and worked well, it wasn't really satisfying. I wanted to build a custom static site generator to render my site.
-As part of [AIEP](https://acmpesuecc.github.io/aiep), our team, consisting of Adhesh, Aditya, Nathan and me, began building [one](https://github.com/acmpesuecc/anna) in Go. I also managed to snag a lovely domain.
+I already had a website running before, written in markdown and rendered using [Hugo](https://gohugo.io). While this worked well, it never felt like the final answer. I wanted to power my website with something I'd built myself.
+As part of [AIEP](https://acmpesuecc.github.io/aiep), our team, consisting of Adhesh, Aditya, Nathan and me, began working on a custom [static site generator](https://github.com/acmpesuecc/anna) in Go.
 
-Fast forward a few weeks and I've got the site up and running. Staying up late has been worth it.
+> Fast forward a few weeks, and I've got my site up and running. Staying up late has been worth it.
 
-### What plans do I have for this site?
+### Why I made a personal site
 
-Honestly, I'm not sure. My vision is to use this as a space where I document my goals, achievements and all the things I've learned along the way. It should inspire me and provide a window to share my insights with others.
+I needed a space to share my thoughts with others. A place to showcase who I was as a person, as well as my goals and achievements.
+A personal site seemed like a good fit.
+Having your own website, available for anyone in the world to access, is a unique feeling.
 
-I do not intend to achieve perfection with every post. It quickly leads to burnout. Rather, this would be an ever-evolving collection that grows over time.
+I also wanted to write often. It could be anything, ranging from a technical article, to some thoughts that I wanted to share.
+I believe writing helps me communicate my ideas better. It forces one to do their research, teaching something new in the process. It also reduces mental clutter.
 
-I also plan to write often. With college making life hectic, shorter, frequent posts seem like a good idea.
-
-Hopefully, this is start of something amazing.
+> Hopefully, this is start of something amazing.
